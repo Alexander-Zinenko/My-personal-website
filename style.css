@@ -1,21 +1,12 @@
-/*
-
-https://color.romanuke.com/czvetovaya-palitra-4274/
-
-Цветовая палитра №4274
-#012e67
-#9cacbf
-#2b6684
-#032e42
-#0a1417
-
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
 
 body {
-    background-color: #9cacbf;
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
     display: flex;
     padding-left: 20%;
     padding-right: 20%;
