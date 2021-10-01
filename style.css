@@ -1,0 +1,60 @@
+/*
+
+https://color.romanuke.com/czvetovaya-palitra-4274/
+
+Цветовая палитра №4274
+#012e67
+#9cacbf
+#2b6684
+#032e42
+#0a1417
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+body {
+    background-color: #9cacbf;
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10em 0 5em;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40pt;
+    color: #012e67;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+.my_photo {
+    height: 200px;
+    width: 200px;
+    
+    border: solid 7px #012e67;
+    border-radius: 100%;
+}
+
+.block-1, .block-2, .block-3, .block-4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: solid 3px #012e67;
+    border-radius: 2em;
+    padding: 5%;
+    margin: 10px;
+}
+
+.projects {
+    font-size: 20pt;
+    font-family: 'Roboto Condensed', sans-serif;
+}
